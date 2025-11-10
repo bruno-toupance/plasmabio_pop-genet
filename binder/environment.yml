@@ -60,4 +60,4 @@ dependencies:
   - admixture
   - admixtools
   - slim
-  - factsimcoal2
+  - fastsimcoal2
