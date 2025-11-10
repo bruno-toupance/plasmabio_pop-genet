@@ -23,10 +23,41 @@ dependencies:
   - pip
   - pip:
     - bash_kernel
+  # R environment
+  - r-irkernel
+  - r-base>=4.1.0
+  - r-rcpp
+  - r-tidyverse
+  - r-factominer
+  - r-factoextra
+  - r-dt
+  - r-repr
+  - r-writexls
+  - r-writexl
+  - r-readxl
+  - r-rcolorbrewer
+  - r-gtools
+  - r-catools
+  - r-igraph
+  - r-polyclip
+  - r-dendextend
+  - r-gplots
+  - r-ggupset
+  - r-ggridges
+  - r-ggnewscale
+  - r-ggpubr
+  - r-ggrepel
+  - r-filelock
+  - r-ggally
+  - r-ggcorrplot
+  - r-ppcor
+  - r-reshape  
   # Population Genomics
+  - vcftools
   - selscan
   - plink
   - plink2
   - admixture
   - admixtools
-  # R-project
+  - slim
+  - factsimcoal2
