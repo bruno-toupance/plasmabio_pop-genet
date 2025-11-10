@@ -18,11 +18,15 @@ dependencies:
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
   - jupyter-archive=3.3.4
-  # Population Genomics
-  - selscan
-  # R-project
   # Bash environment
   - python>=3.8
   - pip
   - pip:
     - bash_kernel
+  # Population Genomics
+  - selscan
+  - plink
+  - plink2
+  - admixture
+  - admixtools
+  # R-project
