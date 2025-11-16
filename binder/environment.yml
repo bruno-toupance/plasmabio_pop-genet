@@ -25,6 +25,7 @@ dependencies:
     - bash_kernel
   # R environment
   # Population Genomics
+  - gsl
   - vcftools
   - bcftools
   - htslib
