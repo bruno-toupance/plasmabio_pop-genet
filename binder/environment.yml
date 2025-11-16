@@ -26,6 +26,10 @@ dependencies:
   # R environment
   # Population Genomics
   - vcftools
+  - bcftools
+  - htslib
+  - tabix
+  - samtools
   - selscan
   - plink
   - plink2
