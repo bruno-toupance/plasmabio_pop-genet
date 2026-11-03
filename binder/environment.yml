@@ -52,7 +52,7 @@ dependencies:
   
 
   # R environment
-  - r-base
+  - r-base>=4
   - r-irkernel
   - gsl>=2.7,<2.8
 
@@ -61,6 +61,18 @@ dependencies:
   - r-mass
   - r-plotly
   - r-rgl
+  - r-essentials                  
+  - r-tidyverse                                       
+  - r-markdown
+  - r-rcpp
+  - r-readxl
+  - r-writexl
+  - r-openxlsx
+  - r-factominer
+  - r-factoextra
+  - r-rcolorbrewer 
+  - r-dt
+  - r-corrplot
 
   
   # Population Genomics
