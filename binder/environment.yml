@@ -1,40 +1,79 @@
 name: plasmabio_pop-genet
-# channels priority
-# see https://bioconda.github.io/
-# conda-forge has highest priority
+
 channels:
-  - defaults
-  - bioconda
   - conda-forge
+  - bioconda
+  - nodefaults
+
 dependencies:
+
   # Jupyter dependencies
-  - jupyterhub>=1.5,<2
-  - jupyterlab>=3.2,<4
+  - jupyterhub>=4.1,<5
+  - jupyterlab>=4.0,<5
+  - notebook>=7,<8
+  - jupyter_server>=2,<3
+  - jupyter-server-proxy>=4.1,<4.2
   - jupyter-resource-usage
-  - jupyterlab-topbar
   - jupyterlab-topbar-text
-  - jupyterlab-system-monitor
-  - nodejs
+
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
   - jupyter-archive=3.3.4
+  
+  # JupyterLab git
+  # https://github.com/jupyterlab/jupyterlab-git
+  - jupyterlab-git
+
+  - nodejs
+
+  
   # Bash environment
-  - python>=3.8
+  - bash_kernel
+
+  # RStudio integration 
+  - rstudio
+  - jupyter-rsession-proxy>=2.3,<3
+
+  # Python environment
+  - python>=3.10,<3.13
   - pip
-  - pip:
-    - bash_kernel
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - pandas=2.3.1
+  - matplotlib=3.8.4
+  - seaborn=0.13.2
+  - statsmodels=0.14.5
+  - pyarrow=21.0.0
+  - pybedtools=0.11.0
+  - pysam=0.22.1
+  - rpy2=3.6.4
+  - scikit-allel=1.3.8
+  - statannotations>=0.4.2
+  
+
   # R environment
+  - r-base
+  - r-irkernel
+
+
   # Population Genomics
-  - gsl=2.5
+  - gsl=2.5,<2.8
   - vcftools
   - bcftools
+  - bedtools
   - htslib
-  - tabix
   - samtools
+  - tabix
   - selscan
   - plink
   - plink2
   - admixture
   - admixtools
+
+  # Population genetics simulations
   - slim
   - fastsimcoal2
+
+  # Additional Python packages
+  - pip:
+    - watermark
