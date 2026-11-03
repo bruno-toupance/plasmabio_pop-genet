@@ -57,6 +57,12 @@ dependencies:
   - gsl>=2.7,<2.8
 
 
+  # R packages
+  - r-mass
+  - r-plotly
+  - r-rgl
+
+  
   # Population Genomics
   - vcftools
   - bcftools
@@ -70,9 +76,11 @@ dependencies:
   - admixture
   - admixtools
 
+
   # Population genetics simulations
   - slim
   - fastsimcoal2
+
 
   # Additional Python packages
   - pip:
