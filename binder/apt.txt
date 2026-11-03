@@ -27,7 +27,7 @@ libgsl-dev
 
 
 #------------------------------------------------------------------------------
-# General sustem dependecies for R
+# General system dependecies for R
 #------------------------------------------------------------------------------
 libxt-dev
 libssl-dev
